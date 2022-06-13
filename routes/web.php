@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Adapting the route to show the messages.blade.php
+Route::get('/messages', function() {
+    return view ('messages');
+});
+
+
+
+    // Route::get('/messages', [MessageController::class, 'showAll']);
