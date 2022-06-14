@@ -56,6 +56,76 @@
     </div>
   </div>
 
+    <!--Here is the 2 row containing 2 pictures with padding according to mock-up-->
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="leftItem">
+              <!-- Probably there will be a description of the image -->
+              <img src="/img/main/m72-archery.png" alt="archery" title="This is a poster of the Summer Olympics 1972 in Munich for archery.">
+              <figcaption>Poster of Archery</figcaption>
+          </div>
+        </div>  
+  
+      <div class="col-sm-6">
+        <div class="rightItem">
+          <img src="/img/main/m72-basketball.png" alt="basketball">
+        <div>
+      </div>
+    </div>
+  </div>
+
+
+    <!--Here is the 3 row containing 2 pictures with padding according to mock-up-->
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="leftItem">
+              <!-- Probably there will be a description of the image -->
+              <img src="/img/main/m72-archery.png" alt="archery" title="This is a poster of the Summer Olympics 1972 in Munich for archery.">
+              <figcaption>Poster of Archery</figcaption>
+          </div>
+        </div>  
+  
+      <div class="col-sm-6">
+        <div class="rightItem">
+          <img src="/img/main/m72-basketball.png" alt="basketball">
+        <div>
+      </div>
+    </div>
+  </div>
+
+    <!--Here is the 4 row containing 2 pictures with padding according to mock-up-->
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="leftItem">
+              <!-- Probably there will be a description of the image -->
+              <img src="/img/main/m72-archery.png" alt="archery" title="This is a poster of the Summer Olympics 1972 in Munich for archery.">
+              <figcaption>Poster of Archery</figcaption>
+          </div>
+        </div>  
+  
+      <div class="col-sm-6">
+        <div class="rightItem">
+          <img src="/img/main/m72-basketball.png" alt="basketball">
+        <div>
+      </div>
+    </div>
+  </div>
+
     
 </body>
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+      <!--HERE COMES THE Footer Linked Page with optional transistion-->
+        <p>All rights reserved 2022. Website by Lu Meili and Chantal Genoud for Oppurtinty Zurich. <a href="empty">Here are more Information about the Design Team.</a></p>
+      </div>
+    </div>
+  </div>
 </html>
