@@ -29,7 +29,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-9 p-3">
-        <!--There is provisory title, to be discussed-->
+        <!-- Title is provisory-->
         <h1>Munich 1972 Olympic Games Posters - Detail View</h1>
       </div>
       <div class="col-sm-3 p-4">
@@ -38,15 +38,25 @@
     </div>
 </header>
 
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      Here comes an Image with margin left: 10px, margin top: 10px, margin buttom: 10px
+  </div>  
+    <div class="col-sm-6">
+      Here comes an Image with margin right: 10px, margin top: 10px, margin buttom: 10px
+    </div> 
+  </div>
+</div> 
 
-  <!--Here is the master for the Detail View of one item-->
+  <!--Here is the code for the Design Team-->
   <div class="container">
     <div class="row">
         <div class="col-sm-12">
           Here comes the <picture></picture>
           <img src="/img/main/m72-archery.png" alt="Munich Olympics 1972 - Archery">
-          <h2>LOREM IPSUM DOLOR</h2>
-          <p>Here comes the description<p>
+          <h2>LOREM IPSUM DOLOR Titel DESIGN TEAM</h2>
+          <p>Here comes the description. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR. LOREM IPSUM DOLOR.</p>
         </div>
     </div>
   </div>
@@ -58,15 +68,6 @@
 <hr>
 
 <footer>
-
-
-
-
-
-
-
-
-
 <div class="container">
     <div class="row">
       <div class="col-sm">
