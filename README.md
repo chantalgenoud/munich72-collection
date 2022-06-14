@@ -21,13 +21,15 @@ Deliverables
 
 
 Technical Issues
-    -Clone and adapt the repository. Problem: There was a code missing in the manual, due to someone in another team, who cut it, instead of copy it. Solution: Coaching with Anita and setting it up. She made the manuel then in read-only to protect it from further failures.
+    
+    -Clone and adapt the repository. Problem: There was a code missing in the manual, due to someone in another team, who cut it, instead of copy it. Solution: Coaching with Anita and setting it up. She made the manuel then in read-only to protect it from further failures. Result: Finally done.
 
     -MVD. Blade, Routes, Controller. Issue: It doesn't work accordingy. Problem: The blade.php had errors, the bootstrap was missing in the head. The HTML was not clean. Solution: Double check it and ask Chris to help.
-    Amazing. 
+    Result: Amazing. 
 
-    -Padding and Margins in images
+    -Padding and Margins in images in absolute measure. Problem: How to implement. Thoughts: There is the option in bootstrap to define it in the col like this <div class="col-sm p-4"> (padding from 1 to 4 responsive). In this project, the mock-up defines it in 20px (aboslute). Solution: We defined in an seperate div the class "leftItem" and "rightItem" and made it in the external css per code. Result: It works.  
 
+    
 
 
 
