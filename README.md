@@ -1,3 +1,41 @@
+This is a online-collection of the Summer Olympics 1972 in Munich. 
+Made by Lu Meili and Chantal Genoud. It was made by pair coding, so all code was made together. All the requested
+links. 
+
+As arranged there is no SASS (member, login) for this project.
+
+
+Deliverables
+- GitHub link to site repository in simplonline.com and optional here again: https://github.com/chantalgenoud/munich72-collection.git 
+
+- readme.md in site repository. 
+
+- Pair contract, Google Drive link in readme.md: https://docs.google.com/document/d/1eFs2z1uP7ecMOMtM86qluGzNtwHVL9JwMptMSOh7tNg/edit?usp=sharing
+
+- Figma mockup link in readme.md: https://www.figma.com/file/eCi4jG9y1pccbqsaiAFAu6/munich72?node-id=0%3A1
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FeCi4jG9y1pccbqsaiAFAu6%2Fmunich72%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+
+- Data model/schema, Google Drive link in readme.md is included in the mockup. 
+
+
+
+Technical Issues
+    -Clone and adapt the repository. Problem: There was a code missing in the manual, due to someone in another team, who cut it, instead of copy it. Solution: Coaching with Anita and setting it up. She made the manuel then in read-only to protect it from further failures.
+
+    -MVD. Blade, Routes, Controller. Issue: It doesn't work accordingy. Problem: The blade.php had errors, the bootstrap was missing in the head. The HTML was not clean. Solution: Double check it and ask Chris to help.
+    Amazing. 
+
+    -Padding and Margins in images
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
