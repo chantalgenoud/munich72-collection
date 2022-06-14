@@ -27,10 +27,10 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-10 p-3">
+      <div class="col-sm-9 p-3">
         <h1>Munich 1972 Olympic Games Posters</h1>
       </div>
-      <div class="col-sm-2 p-3">
+      <div class="col-sm-3 p-4">
         <img src="/img/main/m72-logo.png" alt="logo">
       </div>
     </div>
@@ -42,10 +42,9 @@
     <div class="row">
         <div class="col-sm-6">
           <div class="leftItem">
-            <p>
-              <img src="/img/main/m72-archery.png" alt="archery">
-            Poster archery
-            </p>
+              <!-- Probably there will be a description of the image -->
+              <img src="/img/main/m72-archery.png" alt="archery" title="This is a poster of the Summer Olympics 1972 in Munich for archery.">
+              <figcaption>Poster of Archery</figcaption>
           </div>
         </div>  
   
