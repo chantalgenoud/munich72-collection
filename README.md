@@ -1,5 +1,6 @@
 This is a online-collection of the Summer Olympics 1972 in Munich. 
-Made by Lu Meili and Chantal Genoud. It was made by pair coding, so all code was made together.
+Made by Lu Meili and Chantal Genoud. It was made by pair coding, so all code was made together. All the requested
+links. 
 
 As arranged there is no SASS (member, login) for this project.
 
