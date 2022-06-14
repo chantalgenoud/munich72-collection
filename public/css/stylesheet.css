@@ -5,19 +5,20 @@ body {
 /*Hier kommt der H1 style, es ist ROBOTO BOLD 700 mit 20px*/
 h1 {
     font-family: 'Roboto', sans-serif; 
-    font-size: 20px;
+    font-size: 700;
     font-weight: bold;
 }
 
-#leftItem {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 5px;
+.leftItem {
+    border-width: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
 
 }
 
-#rightItem {
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 10px;
+.rightItem {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
