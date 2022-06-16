@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +26,6 @@
 </head>
 
 <body>
-
   <header>
 
     <div class="container">
@@ -60,7 +60,8 @@
     @foreach ($posters as $poster)
     <?php $count = $count + 1; ?>
 
-    @if($count % 2 == 0) <!-- EVEN NUMBERS -->
+    @if($count % 2 == 0)
+    <!-- EVEN NUMBERS -->
     <div class="row">
       <!-- Left Column -->
       <div class="col-sm-6">
@@ -70,8 +71,8 @@
           <figcaption>{{$poster->sport}} poster</figcaption>
         </div>
       </div>
-      
-      @else <!-- ODD NUMBERS -->
+      @else
+      <!-- ODD NUMBERS -->
       <!-- Right Column -->
       <div class="col-sm-6">
         <div class="rightItem">
@@ -83,73 +84,7 @@
     </div>
     @endif
     @endforeach
-
-
-    <!-- OLDER FORM -->
-
-
-    <!--
-Here is the 2 row containing 2 pictures with padding according to mock-up
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="leftItem">
-            <img src="/img/main/m72-rowing.png" alt="rowing" title="This is a poster of the Summer Olympics 1972 in Munich for archery.">
-            <figcaption>Rowing poster</figcaption>
-          </div>
-        </div>
-
-        <div class="col-sm-6">
-          <div class="rightItem">
-            <img src="/img/main/m72-athletics.png" alt="athletics" title="This is a poster of the Summer Olympics 1972 in Munich for archery.">
-            <figcaption>Athletics poster</figcaption>
-            <div>
-            </div>
-          </div>
-        </div>
-
-
-Here is the 3 row containing 2 pictures with padding according to mock-up
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="leftItem">
-Probably there will be a description of the image 
-                <img src="/img/main/m72-archery.png" alt="archery" title="This is a poster of the Summer Olympics 1972 in Munich for archery.">
-                <figcaption>__________ poster</figcaption>
-              </div>
-            </div>
-
-            <div class="col-sm-6">
-              <div class="rightItem">
-                <img src="/img/main/m72-basketball.png" alt="basketball">
-                <figcaption>__________ poster</figcaption>
-                <div>
-                </div>
-              </div>
-            </div>
-
-Here is the 4 row containing 2 pictures with padding according to mock-up
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="leftItem">
-Probably there will be a description of the image
-                    <img src="/img/main/m72-archery.png" alt="archery" title="This is a poster of the Summer Olympics 1972 in Munich for archery.">
-                    <figcaption>__________ poster</figcaption>
-                  </div>
-                </div>
-
-                <div class="col-sm-6">
-                  <div class="rightItem">
-                    <img src="/img/main/m72-basketball.png" alt="basketball">
-                    <figcaption>__________ poster</figcaption>
-                    <div>
-                    </div>
-                  </div>
-                </div>
--->
-
+  </div>
 
 </body>
 
