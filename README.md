@@ -6,7 +6,7 @@ As arranged there is no SASS (member, login) for this project.
 
 
 Deliverables
-- GitHub link to site repository in simplonline.com and optional here again: https://github.com/chantalgenoud/munich72-collection.git 
+- GitHub link to site repository in simplonline.com and optional here again: https://github.com/lu-meili/munich72-collection.git
 
 - readme.md in site repository. 
 
@@ -14,25 +14,40 @@ Deliverables
 
 - Figma mockup link in readme.md: https://www.figma.com/file/eCi4jG9y1pccbqsaiAFAu6/munich72?node-id=0%3A1
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FeCi4jG9y1pccbqsaiAFAu6%2Fmunich72%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-
-- Data model/schema, Google Drive link in readme.md is included in the mockup. 
+- Data model/schema, Google Drive link in readme.md.?
 
 
 
 Technical Issues
     
     -Clone and adapt the repository. Problem: There was a code missing in the manual, due to someone in another team, who cut it, instead of copy it. Solution: Coaching with Anita and setting it up. She made the manuel then in read-only to protect it from further failures. Result: Finally done.
+    From 13th June 2022
+
 
     -MVD. Blade, Routes, Controller. Issue: It doesn't work accordingy. Problem: The blade.php had errors, the bootstrap was missing in the head. The HTML was not clean. Solution: Double check it and ask Chris to help.
     Result: Amazing. 
+    From 14th June 2022
 
-    -Padding and Margins in images in absolute measure. Problem: How to implement. Thoughts: There is the option in bootstrap to define it in the col like this <div class="col-sm p-4"> (padding from 1 to 4 responsive). In this project, the mock-up defines it in 20px (aboslute). Solution: We defined in an seperate div the class "leftItem" and "rightItem" and made it in the external css per code. Result: It works.  
+
+    -Padding and Margins in images in absolute measure. Problem: How to implement. Thoughts: There is the option in bootstrap to define it in the col like this <div class="col-sm p-4"> (padding from 1 to 4 responsive). In this project, the mock-up defines it in 20px (aboslute). Solution: We defined in an seperate div the class "leftItem" and "rightItem" and made it in the external css per code. Result: It works. 
+    From 14th June 2022
+
+
+    - Git Hub Repository. Problem: We worked both on the file and one commit was not actual. Though: Let's clone 
+    one repository again and delelete one. Issue: It all went worse!
+
+    Problem 1: Cloning a laravel application and installing dependencies for existing applications was remade. 
+    Solution to 1: Redo again accorging to tutorial. Took 1hours and the access was denied first. Solve this, too. 
+   
+    Problem 2: Some data are not merged together. Conflicts
+
+    Overall toughts to Git Hub Repository. There were two repository and one was a fork out of the another. This was suboptiomal. Issues would follow again. Solution: Make best case! One repository and two branches. To change this Chris helped to modifiy that accordingely. Result: Best case!
+
+    Learnings: Always follow best case for GitHub, it makes live easier.
+    From 15th to 16th of June 2022
+
 
     
-
-
-
 
 
 
