@@ -21,5 +21,9 @@ Route::get('/', function () {
 //Adapting the route to show the messages.blade.php
 Route::get('/index', [PosterController::class, 'showAll']);
 
+Route::get('/details', function () {
+    return view('details');
+}); // [PosterController::class, 'showAll']
+
 
 

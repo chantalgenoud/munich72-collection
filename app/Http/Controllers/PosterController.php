@@ -13,7 +13,7 @@ class PosterController extends Controller
         // gets all the entries from table messages
         // and gets an array of objects as a return value.
         // we store this return value in the variable $messages
-        $posters = Poster::all()->sortByDesc('created_at');
+        $posters = Poster::all()->sortBy('id');
 
         // This line would output the messages in the UI/Browser
         // and stop the script execution.

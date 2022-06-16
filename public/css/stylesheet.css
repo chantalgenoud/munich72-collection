@@ -1,5 +1,6 @@
 * {
     font-family: "Roboto", sans-serif;
+    
 }
 
 body {
@@ -19,6 +20,15 @@ h1 {
     font-size: 700;
     font-weight: bold;
 }*/
+
+.homeText{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: right;
+    color: #5566DD;
+}
+
 
 .siteTitle {
     font-family: "Roboto", sans-serif;
