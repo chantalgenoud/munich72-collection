@@ -70,6 +70,7 @@
           <figcaption>{{$poster->sport}} poster</figcaption>
         </div>
       </div>
+      
       @else <!-- ODD NUMBERS -->
       <!-- Right Column -->
       <div class="col-sm-6">
