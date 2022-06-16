@@ -1,33 +1,56 @@
-* {font-family: 'Roboto', sans-serif; 
-}
-    
-    
-    body {
-    background-color: whitesmoke;
+* {
+    font-family: "Roboto", sans-serif;
 }
 
-/*Hier kommt der H1 style, es ist ROBOTO BOLD 700 mit 20px*/
+body {
+    background-color: #ffff; /* default background */
+}
+
+figcaption {
+    color: #5566DD; /* default text color */
+    font-weight: bold;
+
+
+}
+
+/*Hier kommt der H1 style, es ist ROBOTO BOLD 700 mit 20px
 h1 {
     font-family: 'Roboto', sans-serif; 
     font-size: 700;
     font-weight: bold;
+}*/
+
+.siteTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000; /* default text color */
 }
 
 .leftItem {
-    border-width: 5px;
+
+    padding: 20px;
+
+    /*  
+   border-width: 5px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 5px;
-
+*/
 }
 
 .rightItem {
-    margin-top: 10px;
+
+    padding: 20px;
+
+    /* 
+   margin-top: 10px;
     margin-left: 5px;
     margin-right: 10px;
+    */
 }
 
 /* Diese Farbe ist nicht von dem Mock Up, please double check with lu!*/
 .bluetext {
-    color:  #1c5d96;
+    color: #1c5d96;
 }

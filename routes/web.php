@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PosterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,10 +19,7 @@ Route::get('/', function () {
 });
 
 //Adapting the route to show the messages.blade.php
-Route::get('/messages', function() {
-    return view ('messages');
-});
+Route::get('/index', [PosterController::class, 'showAll']);
 
 
 
-    // Route::get('/messages', [MessageController::class, 'showAll']);
