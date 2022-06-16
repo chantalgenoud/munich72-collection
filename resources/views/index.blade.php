@@ -30,7 +30,7 @@
 
     <div class="container">
       <nav class="navbar">
-        <a class="navbar-brand siteTitle">Munich 1972 Olympic Games Posters </a>
+        <p #site-title>Munich 1972 Olympic Games Posters</p>
         <img src="/img/main/m72-logo.png" alt="" width="70" height="70" class="d-inline-block align-text-right">
       </nav>
     </div>

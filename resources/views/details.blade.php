@@ -1,3 +1,4 @@
+
 <!DOCTYPE html><!-- This is the master DetailView for the Items for pagination-->
 <html lang="en">
 
@@ -16,7 +17,6 @@
 
   <!--Unser Stylesheet in public/css/styleheet-->
   <link rel="stylesheet" href="/css/stylesheet.css">
-
 
   <!--Fonts Roboto-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,7 +61,6 @@
 
   </header>
 
-
   <!--Here is the master for the Detail View of one item-->
   <div class="container">
     <div class="row">
@@ -80,14 +79,6 @@
 <hr>
 
 <footer>
-
-
-
-
-
-
-
-
 
   <div class="container">
     <div class="row">
