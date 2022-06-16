@@ -33,7 +33,7 @@
         <h1>Munich 1972 Olympic Games Posters - Detail View</h1>
       </div>
       <div class="col-sm-3 p-4">
-        <img src="/img/main/m72-logo.png" alt="logo">
+        <a href="/index"><img src="/img/main/m72-logo.png" alt="logo"></a>
       </div>
     </div>
 </header>
