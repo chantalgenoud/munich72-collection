@@ -28,30 +28,17 @@
 <body>
   <header>
 
-    <div class="container">
-      <nav class="navbar">
-        <p #site-title>Munich 1972 Olympic Games Posters</p>
-        <img src="/img/main/m72-logo.png" alt="" width="70" height="70" class="d-inline-block align-text-right">
-      </nav>
-    </div>
-
-  </header>
-  <!-- Site header alternative code
-          <h1 class="siteTitle">Munich 1972 Olympic Games Posters</h1>
-        </div>
+    <nav class="navbar col-sm-12">
+      <div class="container col-sm-1">
+        <a class="navbar-brand"><img src="/img/main/m72-logo.png" width="70" height="70" alt="munich-logo" /></a>
       </div>
 
+      <div class="col-sm-11">
+        <large>Munich 1972 Olympic Games Poster</large>
+      </div>
+    </nav>
 
-      <nav class="navbar navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="/img/main/m72-logo.png" alt="" width="70" height="70">
-          </a>
-        </div>
-      </nav>-->
-
-
-
+  </header>
 
   <!--Here is the 1 row containing 2 pictures with padding according to mock-up-->
   <div class="container">
