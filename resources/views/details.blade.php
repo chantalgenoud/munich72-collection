@@ -61,16 +61,17 @@
     <div class="row">
       <div class="col-sm">
         <div class="leftItem">
-          <img src="/img/main/{{$poster->image}}" alt="{{$poster->sport}}"> 
-          <h2>Sport: {{$poster->sport}}</h2>
-          <ul>
-            <b><li>Author: {{$poster->author}}</li></b>
-            <b><li>Sport: {{$poster->author}}</li></b>
-            <b><li>Size: {{$poster->media}}</li></b>
-            <li>Item#: [{{$poster->number}}]</li>  
+          <h3>{{$poster->id}}. <b>{{$poster->sport}}</h3><br>
+          <img src="/img/main/{{$poster->image}}" alt="{{$poster->sport}}">
+          <ul style="list-style-type:none;">
+            <br>
+            <li>Author: <b>{{$poster->author}}</b></li>
+            <li>Media: <b>{{$poster->media}}</b></li>
+            <li>Item#: [0{{$poster->number}}]</li>
           </ul>
         </div>
       </div>
+    </div>
     </div>
 
 </body>
@@ -78,15 +79,15 @@
 <hr>
 
 <footer>
-
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        <!--HERE COMES THE Footer Linked Page with optional transistion-->
-        <p>All rights reserved 2022. Website by Lu Meili and Chantal Genoud for Oppurtinty Zurich. <a href="empty">Here are more Information about the Design Team.</a></p>
+                <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
+          <a href="empty">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
+        </p>
       </div>
     </div>
-  </div>
 </footer>
 
+  
 </html>
