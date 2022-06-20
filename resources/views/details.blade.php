@@ -48,7 +48,6 @@
         <div class="col-sm-6">
         <div class="leftItem">
         <img src="/img/main/m72-archery.png" alt="Munich Olympics 1972 - Archery">
-        <figcaption>_____________ poster</figcaption>
       </div>
     </div>
   </div>
