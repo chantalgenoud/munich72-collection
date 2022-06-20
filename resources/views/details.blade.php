@@ -1,4 +1,3 @@
-
 <!DOCTYPE html><!-- This is the master DetailView for the Items for pagination-->
 <html lang="en">
 
@@ -18,6 +17,7 @@
   <!--Unser Stylesheet in public/css/styleheet-->
   <link rel="stylesheet" href="/css/stylesheet.css">
 
+
   <!--Fonts Roboto-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,46 +27,27 @@
 
 <body>
   <header>
-  <!--OLD CODE
-    <div class="container">
-      <nav class="navbar">
-        <a class="navbar-brand siteTitle">Munich 1972 Olympic Games Posters </a>
-        <a href="/index"><img src="/img/main/m72-logo.png" alt="" width="70" height="70" class="d-inline-block align-text-right" alt="logo"></a>
-      </nav>
-    </div>-->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="siteTitle ">Munich 1972 Olympic Games Posters</p>
-        </div>
-
-        <div class="col-sm-2">
-          <p class="homeText">home > </p>
-        </div>
-
-        <div class="col-sm-4">
-          <a href="/index"><img src="/img/main/m72-logo.png" alt="" width="70" height="70" class="d-inline-block align-text-right" alt="logo"></a>
-        </div>
-
+    <nav class="navbar col-sm-12">
+      <div class="container col-sm-1">
+        <a class="navbar-brand" href="/index"><img src="/img/main/m72-logo.png" width="70" height="70" alt="munich-logo"></a>
       </div>
 
-    </div>
-
-
-
-
-
-
+      <div class="col-sm-11">
+        <large>Munich 1972 Olympic Games Poster</large>
+      </div>
+    </nav>
 
   </header>
 
   <!--Here is the master for the Detail View of one item-->
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <img src="/img/main/m72-archery.png" alt="Munich Olympics 1972 - Archery">
 
+    <div class="row">
+    <!-- Left Column -->
+        <div class="col-sm-6">
+        <div class="leftItem">
+        <img src="/img/main/m72-archery.png" alt="Munich Olympics 1972 - Archery">
         <figcaption>_____________ poster</figcaption>
       </div>
     </div>

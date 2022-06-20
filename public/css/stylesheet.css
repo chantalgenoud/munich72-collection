@@ -1,6 +1,5 @@
 * {
     font-family: "Roboto", sans-serif;
-    
 }
 
 body {
@@ -8,11 +7,20 @@ body {
 }
 
 figcaption {
-    color: #5566DD; /* default text color */
+    color: #5566dd; /* default text color */
     font-weight: bold;
-
-
+    font-size: 700;
 }
+
+large {
+    color: #2ac4e2; /* default text color */
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0%;
+}
+
+
 
 /*Hier kommt der H1 style, es ist ROBOTO BOLD 700 mit 20px
 h1 {
@@ -21,24 +29,41 @@ h1 {
     font-weight: bold;
 }*/
 
-.homeText{
+
+
+.navbar {
+	margin:60 !important;
+	padding: 60px !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+    
+
+}
+
+.container {
+    text-align: left;
+
+}
+
+.homeText {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: lighter;
     text-align: right;
-    color: #5566DD;
+    color: #5566dd;
 }
 
-
-.siteTitle {
+/*.siteTitle {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #000000; /* default text color */
+    color: #000000;  default text color */
 }
 
 .leftItem {
-
     padding: 20px;
 
     /*  
@@ -50,7 +75,6 @@ h1 {
 }
 
 .rightItem {
-
     padding: 20px;
 
     /* 
