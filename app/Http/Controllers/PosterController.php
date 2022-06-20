@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Poster;
 
+
+
 class PosterController extends Controller
 {
 
@@ -27,4 +29,15 @@ class PosterController extends Controller
         // associative array)
         return view('index', ['posters' => $posters]);
     }
+
+
+
+    // Here the funciton for the details page
+    public function details($id) 
+    {
+        $poster = Poster::findOrFail($id);
+        return view('details', ['poster' => $poster]);
+    }
+
+
 }
