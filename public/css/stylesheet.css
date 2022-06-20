@@ -7,8 +7,8 @@ body {
 }
 
 figcaption {
-    color: #5566dd; /* default text color */
-    font-weight: bold;
+    color: #00b554; /* default text color */
+    font-weight: normal;
     font-size: 700;
 }
 
@@ -48,12 +48,13 @@ h1 {
 
 }
 
-.homeText {
+/*.homeText {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: lighter;
     text-align: right;
     color: #5566dd;
+    
 }
 
 /*.siteTitle {
@@ -65,7 +66,10 @@ h1 {
 
 .leftItem {
     padding: 20px;
-
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    font-weight: lighter;
+    color: #5566dd;
     /*  
    border-width: 5px;
     margin-top: 10px;
@@ -76,6 +80,10 @@ h1 {
 
 .rightItem {
     padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    font-weight: lighter;
+    color: #5566dd;
 
     /* 
    margin-top: 10px;

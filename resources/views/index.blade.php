@@ -53,32 +53,25 @@
       <!-- Left Column -->
       <div class="col-sm-6">
         <div class="leftItem">
-
           <!-- here comes the HTML link for the details-->
-          <a href="/details/{{$poster->id}}"> 
-            <img src="/img/main/{{$poster->image}}"> 
-          </a>
-          <!--alt="_____________"-->
-          <figcaption>{{$poster->sport}} poster</figcaption>
-          
-
-          <!-- dev onl-->
-          {{$poster->author}} Author
-
-
+          <a href="/details/{{$poster->id}}">
+          <img src="/img/main/{{$poster->image}}"></a>
+          <alt="{{$poster->sport}}">
+            <figcaption>{{$poster->id}}. <b>{{$poster->sport}} </b>poster</figcaption>
         </div>
       </div>
+
       @else
       <!-- ODD NUMBERS -->
       <!-- Right Column -->
       <div class="col-sm-6">
         <div class="rightItem">
           <!-- here comes the HTML link for the details-->
-          <a href="/details/{{$poster->id}}"> 
-            <img src="/img/main/{{$poster->image}}">
-          </a>
-          <!--alt="_____________"-->
-          <figcaption>{{$poster->sport}} poster</figcaption>
+          <a href="/details/{{$poster->id}}">
+          <img src="/img/main/{{$poster->image}}"></a>
+          <alt="{{$poster->sport}}">
+            <figcaption>{{$poster->id}}. <b>{{$poster->sport}} </b>poster</figcaption>
+       
         </div>
       </div>
     </div>
@@ -94,20 +87,12 @@
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        <!--HERE COMES THE Footer Linked Page with optional transistion-->
-        <!--<p>All rights reserved 2022. Website by Lu Meili and Chantal Genoud for Oppurtinty Zurich. <a href="empty">Here are more Information about the Design Team.</a></p>-->
-        <p>All rights reserved 2022. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
+                <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
           <a href="empty">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
         </p>
       </div>
     </div>
-  </div>
+</footer>
 
-
-  <!-- dev only-->
-
-  {{$poster->sport}}:
-    {{$poster->author}}:
-    {{$poster->media}}:
-    {{$poster->number}}:
+  
 </html>
