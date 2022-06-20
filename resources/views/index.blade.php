@@ -88,7 +88,7 @@
     <div class="row">
       <div class="col-sm">
                 <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
-          <a href="empty">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
+          <a href="/historypage">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
         </p>
       </div>
     </div>
