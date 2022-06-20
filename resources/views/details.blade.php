@@ -14,12 +14,38 @@
   <!-- Styles -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-  <!--Unser Stylesheet in public/css/styleheet-->
-  <link rel="stylesheet" href="/css/stylesheet.css">
+    <!--Unser Stylesheet in public/css/styleheet-->
+    <link rel="stylesheet" href="/css/stylesheet.css">
+
+  <!--Unser Stylesheet in public/css/styleheet-->body {
+    background-color: #ffff; /* default background */
+}
+
+figcaption {
+    color: #00b554; /* default text color */
+    font-weight: normal;
+    font-size: 700;
+}
 
 
-  <!--Fonts Roboto-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+large {
+    color: #2ac4e2; /* default text color */
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0%;
+}
+    font-size: 700;
+}
+
+
+large {
+    color: #2ac4e2; /* default text color */
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0%;
+}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
@@ -41,23 +67,8 @@
   </header>
 
 
-  <!-- Old design template, can be deleted
-    <div class="container">
-
-      <div class="row">
-          <div class="col-sm-6">
-          <div class="leftItem">
-          <img src="/img/main/m72-archery.png" alt="Munich Olympics 1972 - Archery">
-          <figcaption>_____________ poster</figcaption>
-        </div>
-      </div>
-    </div>
--->
-
-
   <!-- Here comes the code for the details-->
   <div class="container">
-
     <div class="row">
       <div class="col-sm">
         <div class="leftItem">
@@ -72,7 +83,7 @@
         </div>
       </div>
     </div>
-    </div>
+  </div>
 
 </body>
 
@@ -81,12 +92,13 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm copyright">
                 <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
           <a href="empty">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
         </p>
       </div>
     </div>
+  </div>
 </footer>
 
   
