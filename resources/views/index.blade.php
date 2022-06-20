@@ -53,9 +53,19 @@
       <!-- Left Column -->
       <div class="col-sm-6">
         <div class="leftItem">
-          <img src="/img/main/{{$poster->image}}">
+
+          <!-- here comes the HTML link for the details-->
+          <a href="/details/{{$poster->id}}"> 
+            <img src="/img/main/{{$poster->image}}"> 
+          </a>
           <!--alt="_____________"-->
           <figcaption>{{$poster->sport}} poster</figcaption>
+          
+
+          <!-- dev onl-->
+          {{$poster->author}} Author
+
+
         </div>
       </div>
       @else
@@ -63,7 +73,10 @@
       <!-- Right Column -->
       <div class="col-sm-6">
         <div class="rightItem">
-          <img src="/img/main/{{$poster->image}}">
+          <!-- here comes the HTML link for the details-->
+          <a href="/details/{{$poster->id}}"> 
+            <img src="/img/main/{{$poster->image}}">
+          </a>
           <!--alt="_____________"-->
           <figcaption>{{$poster->sport}} poster</figcaption>
         </div>
@@ -90,4 +103,11 @@
     </div>
   </div>
 
+
+  <!-- dev only-->
+
+  {{$poster->sport}}:
+    {{$poster->author}}:
+    {{$poster->media}}:
+    {{$poster->number}}:
 </html>

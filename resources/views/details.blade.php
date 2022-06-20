@@ -40,19 +40,38 @@
 
   </header>
 
-  <!--Here is the master for the Detail View of one item-->
+
+  <!-- Old design template, can be deleted
+    <div class="container">
+
+      <div class="row">
+          <div class="col-sm-6">
+          <div class="leftItem">
+          <img src="/img/main/m72-archery.png" alt="Munich Olympics 1972 - Archery">
+          <figcaption>_____________ poster</figcaption>
+        </div>
+      </div>
+    </div>
+-->
+
+
+  <!-- Here comes the code for the details-->
   <div class="container">
 
     <div class="row">
-    <!-- Left Column -->
-        <div class="col-sm-6">
+      <div class="col-sm">
         <div class="leftItem">
-        <img src="/img/main/m72-archery.png" alt="Munich Olympics 1972 - Archery">
+          <img src="/img/main/{{$poster->image}}" alt="{{$poster->sport}}"> 
+          <h2>Sport: {{$poster->sport}}</h2>
+          <ul>
+            <b><li>Author: {{$poster->author}}</li></b>
+            <b><li>Sport: {{$poster->author}}</li></b>
+            <b><li>Size: {{$poster->media}}</li></b>
+            <li>Item#: [{{$poster->number}}]</li>  
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-
-
 
 </body>
 

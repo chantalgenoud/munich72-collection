@@ -25,5 +25,4 @@ Route::get('/details', function () {
     return view('details');
 }); // [PosterController::class, 'showAll']
 
-
-
+Route::get('/details/{id}', [PosterController::class, 'details']);
