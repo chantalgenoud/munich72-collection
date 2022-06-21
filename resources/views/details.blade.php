@@ -17,35 +17,7 @@
     <!--Unser Stylesheet in public/css/styleheet-->
     <link rel="stylesheet" href="/css/stylesheet.css">
 
-  <!--Unser Stylesheet in public/css/styleheet-->body {
-    background-color: #ffff; /* default background */
-}
-
-figcaption {
-    color: #00b554; /* default text color */
-    font-weight: normal;
-    font-size: 700;
-}
-
-
-large {
-    color: #2ac4e2; /* default text color */
-    font-family: "Roboto", sans-serif;
-    font-size: 100%;
-    font-weight: bold;
-    margin: 0%;
-}
-    font-size: 700;
-}
-
-
-large {
-    color: #2ac4e2; /* default text color */
-    font-family: "Roboto", sans-serif;
-    font-size: 100%;
-    font-weight: bold;
-    margin: 0%;
-}
+  
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
