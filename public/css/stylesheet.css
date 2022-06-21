@@ -7,14 +7,20 @@ body {
 }
 
 figcaption {
-    color: #00b554; /* default text color */
+    color: #00b554;
     font-weight: normal;
     font-size: 700;
 }
 
+p {
+    color: #00000;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
 
 large {
-    color: #2ac4e2; /* default text color */
+    color: #2ac4e2;
     font-family: "Roboto", sans-serif;
     font-size: 100%;
     font-weight: bold;
@@ -61,4 +67,9 @@ large {
 
 .copyright {
     font-weight: normal;
+}
+
+.history {
+    text-align: justify;
+    text-justify: inter-word;
 }

@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Munich72 Collection</title>
+  <title>Munich 1972 Olympic Games Posters Collection</title>
 
   <!-- Scripts -->
   <script src="{{ asset('js/app.js') }}" defer></script>
@@ -14,16 +14,17 @@
   <!-- Styles -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <!--Unser Stylesheet in public/css/styleheet-->
-    <link rel="stylesheet" href="/css/stylesheet.css">
+  <!--Unser Stylesheet in public/css/styleheet-->
+  <link rel="stylesheet" href="/css/stylesheet.css">
 
-  
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+
   <header>
 
     <nav class="navbar col-sm-12">
@@ -38,8 +39,6 @@
 
   </header>
 
-
-  <!-- Here comes the code for the details-->
   <div class="container">
     <div class="row">
       <div class="col-sm">
@@ -62,16 +61,17 @@
 <hr>
 
 <footer>
+
   <div class="container">
     <div class="row">
-      <div class="col-sm copyright">
-                <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
-          <a href="empty">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
+      <div class="col-sm copyright" style="text-align: center">
+        <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
+          <a href="/histories">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
         </p>
       </div>
     </div>
   </div>
+
 </footer>
 
-  
 </html>

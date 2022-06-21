@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PosterController;
+use App\Http\Controllers\HistoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,5 @@ Route::get('/details', function () {
 }); // [PosterController::class, 'showAll']
 
 Route::get('/details/{id}', [PosterController::class, 'details']);
+
+Route::get('/histories', [HistoryController::class, 'history']);
