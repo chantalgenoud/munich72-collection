@@ -17,7 +17,7 @@
     <!--Unser Stylesheet in public/css/styleheet-->
     <link rel="stylesheet" href="/css/stylesheet.css">
 
-  
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
@@ -66,7 +66,7 @@
     <div class="row">
       <div class="col-sm copyright">
                 <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
-          <a href="empty">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
+          <a href="/historypage">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
         </p>
       </div>
     </div>

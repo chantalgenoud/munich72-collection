@@ -26,3 +26,7 @@ Route::get('/details', function () {
 }); // [PosterController::class, 'showAll']
 
 Route::get('/details/{id}', [PosterController::class, 'details']);
+
+Route::get('/historypage', function () {
+    return view('historypage');
+});

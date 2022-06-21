@@ -72,7 +72,7 @@
     <div class="row">
       <div class="col-sm">
       <!--HERE COMES THE Footer Linked Page with optional transistion-->
-        <p>All rights reserved 2022. Website by Lu Meili and Chantal Genoud for Oppurtinty Zurich. <a href="empty">Here are more Information about the Design Team.</a></p>
+        <p>All rights reserved 2022. Website by Lu Meili and Chantal Genoud for Oppurtinty Zurich. Here are more Information about the Design Team.</p>
       </div>
     </div>
   </div>
