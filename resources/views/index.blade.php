@@ -55,7 +55,7 @@
         <div class="leftItem">
           <!-- here comes the HTML link for the details-->
           <a href="/details/{{$poster->id}}">
-          <img src="/img/main/{{$poster->image}}"></a>
+            <img src="/img/main/{{$poster->image}}"></a>
           <alt="{{$poster->sport}}">
             <figcaption>{{$poster->id}}. <b>{{$poster->sport}} </b>poster</figcaption>
         </div>
@@ -68,10 +68,10 @@
         <div class="rightItem">
           <!-- here comes the HTML link for the details-->
           <a href="/details/{{$poster->id}}">
-          <img src="/img/main/{{$poster->image}}"></a>
+            <img src="/img/main/{{$poster->image}}"></a>
           <alt="{{$poster->sport}}">
             <figcaption>{{$poster->id}}. <b>{{$poster->sport}} </b>poster</figcaption>
-       
+
         </div>
       </div>
     </div>
@@ -86,14 +86,14 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm">
-                <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
-          <a href="/historypage">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
+      <div class="col-sm" style="text-align: center">
+        <p>All rights reserved <b>2022</b>. Website by Chantal Genoud and Lu Meili for Opportunity Zürich.
+          <a href="/histories">Here</a> you can find out who was the Munich 1972 Olympic Games branding design team.
         </p>
       </div>
     </div>
   </div>
 </footer>
 
-  
+
 </html>
