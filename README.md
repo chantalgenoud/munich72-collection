@@ -1,3 +1,7 @@
+
+
+
+
 This is a online-collection of the Summer Olympics 1972 in Munich. 
 Made by Lu Meili and Chantal Genoud. It was made by pair coding, so all code was made together. All the requested
 links. 
@@ -18,7 +22,7 @@ Deliverables
 
 
 
-Technical Issues
+Technical Issues and other aspects
     
     -Clone and adapt the repository. Problem: There was a code missing in the manual, due to someone in another team, who cut it, instead of copy it. Solution: Coaching with Anita and setting it up. She made the manuel then in read-only to protect it from further failures. Result: Finally done.
     From 13th June 2022
@@ -45,6 +49,9 @@ Technical Issues
 
     Learnings: Always follow best case for GitHub, it makes live easier.
     From 15th to 16th of June 2022
+    
+    - Handling wit time/time management. Problem: The deadline was coming closer and there was more pressure/stress. Issues: logical coding and doing is suboptimal, when you have to cope with distress. Solution: Meeting up again (extraordinary), talk about our subjective level of stress. Second, priorize the workload, aware decision what TO NOT DO, rearrangemenet of tasks according to time team member's time ressources. Plus: Calm each other down.
+    From 20th to Deadline 21th June 2022
 
 
     
